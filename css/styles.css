@@ -1,3 +1,11 @@
-#roller, #swing, #wheel, #bumper {
+#rides {
   display: none;
+}
+
+.over4 {
+  color: red;
+}
+
+.under4 {
+  color: black;
 }
