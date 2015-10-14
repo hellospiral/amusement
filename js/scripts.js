@@ -1,16 +1,11 @@
 $(document).ready(function() {
-  var over4 = confirm("Are you at least 4' tall? Click OK if so, click Cancel if no.");
+  var height = parseInt(prompt("How many feet tall are you?"));
 
-
-  if (over4) {
-    $('#rides').show();
-    $('li').removeClass();
-    $('li').addClass(".over4");
-    $('.under4').hide();
-  } else {
-    $("#rides").show();
-    $('li').removeClass();
-    $('li').addClass('.under4');
-    $('.over4').hide();
-  }
+ if (height > 4) {
+   $('#over4').show();
+ } if (height === 4) {
+   $('#exactly4').show();
+ } if (height < 4) {
+   $('#under4').show();
+ }
 });

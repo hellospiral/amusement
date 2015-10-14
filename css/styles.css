@@ -1,11 +1,15 @@
-#rides {
+#exactly4 {
   display: none;
 }
 
-.over4 {
-  color: red;
+#under4 {
+  display: none;
 }
 
-.under4 {
-  color: black;
+#over4 {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
 }
